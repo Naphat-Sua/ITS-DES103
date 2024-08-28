@@ -1,0 +1,9 @@
+package DES103_LAB05_BankAccount;
+
+public class TestBankAccount1 {
+    public static void main(String[] args) {
+        BankAccount acc = new BankAccount("Paris Hilton", "127-983-3847", 1000000.00);
+        System.out.println(acc.balance);
+        //System.out.println(acc.getBalance());
+    }
+}
